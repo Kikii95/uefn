@@ -1,0 +1,29 @@
+# UEFN Project - Linux side
+# Only Verse code and docs are tracked here
+# UEFN binary files (assets, maps) live on Windows
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
+.vscode/
+
+# Temporary
+*.tmp
+*.bak
+
+# Never track UEFN binary assets (if accidentally copied)
+*.uasset
+*.umap
+*.uexp
+Content/
+Saved/
+Intermediate/
+DerivedDataCache/
+
+# Context snapshot (auto-generated)
+.claude/context-snapshot.json
